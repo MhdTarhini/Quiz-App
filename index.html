@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="quiz-app">
+        <div class="quiz-info">
+            <div class="category"> category: <span>HTML</span></div>
+            <div class="count"> Question #<span></span>of <span class="all-question-num"></span></div>
+        </div>
+        <div class="quiz-area disable">
+            <h2></h2>
+        </div>
+        <div class="answers-area disable">
+            <div class="answer">
+                <input type="radio" name="question" id="number-1">
+                <label for="1" id="answer-1"></label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="question" id="number-2">
+                <label for="2" id="answer-2"></label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="question" id="number-3" >
+                <label for="3" id="answer-3"></label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="question" id="number-4" >
+                <label for="4" id="answer-4"></label>
+            </div>
+        </div>
+        <button class="submit-button submit disable">Submit answer</button>
+        <button class="submit-button Start">Start</button>
+        <!-- <div>
+            <div style="display: flex; width:80%;justify-content:center; padding-top: 0%;">
+                Time Left ::
+            </div>
+            <div style="display: flex; width:80%;justify-content:center; padding-top: 0%;">
+                <input id="minutes" type="text" style="width: 2%; border: none; font-size: 16px;font-weight: bold; color: black;">
+                <font size="5">:</font>
+                <input id="seconds" type="text" style="width: 5%; border: none; font-size: 16px;font-weight: bold; color: black;">
+            </div>
+        </div> -->
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
