@@ -92,7 +92,7 @@ function randomQues(question) {
     for (let i = 0; i < 4; i++) {
       var randomAnswers = answers[Math.floor(Math.random() * answers.length)];
       arrayQues.push(randomAnswers);
-      answers = answers.filter((element) => element !== randomAnswers); // [1,2,4,5,7]
+      answers = answers.filter((element) => element !== randomAnswers);
     }
   }
   arrayQues.push(correct_answer);
